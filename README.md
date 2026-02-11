@@ -24,10 +24,16 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 
 ## 📝 Learning Log
 
-| Day | 📚 Topic | ⭐ Key Achievement | 💻 Code |
+| Day | 📚 Topic | ⭐ Key Achievement | 
 | :--- | :--- | :--- | :--- |
-| Day 01 | First Python Programme |
+## 📝 Learning Log
+
+| Day    | 📚 Topic                          | ⭐ Key Achievement |
+| :---   | :---                              | :---              |
+| Day 01 | First Python Programme            | Wrote and executed my very first Python script, building confidence in syntax and setup |
+| Day 02 | Variables: Single & Multiple Use  | Practiced declaring and assigning single variables, explored multiple variable assignment in one line, and understood how Python handles values efficiently |
 ---
+
 
 📌 **Connect with Me**  
 - 💼 [LinkedIn](https://www.linkedin.com/in/palak-srivastava-12bb19234)  
