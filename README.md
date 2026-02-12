@@ -32,6 +32,8 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 | :---   | :---                              | :---              |
 | Day 01 | First Python Programme            | Wrote and executed my very first Python script, building confidence in syntax and setup |
 | Day 02 | Variables: Single & Multiple Use  | Practiced declaring and assigning single variables, explored multiple variable assignment in one line, and understood how Python handles values efficiently |
+| Day 03 | Lists & Variable Types | Learned about Python lists and practiced creating, accessing, and modifying them; explored different variable types (int, float, string, boolean) with examples to understand how Python stores and manipulates data |
+
 ---
 
 
