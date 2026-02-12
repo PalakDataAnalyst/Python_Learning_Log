@@ -1,0 +1,56 @@
+DAY 3 - LIST TYPE AND VARIABLES - EXAMPLES
+
+marks = [45, 39, 56]
+print(type(marks))
+print(marks)
+print(marks[2])
+marks[1] = 67
+print(marks)
+
+m = [45, 39, 56]
+print(type(m))
+print(m)
+print(m[2])
+m[1] = 67
+print(m)
+print("Marks of maths:", m[0])
+print("Marks of physics:", m[1])
+print("Marks of chemistry:", m[2])
+
+person = ["Vijay Verma", 23, 'Greater Noida', 72.34, False]
+print(type(person))
+print(person)
+print("Name:", person[0])
+print('Age:', person[1])
+print("City:", person[2])
+print("Weight:", person[3])
+print('Married:', person[4])
+person[2] = 'Noida'
+print(person)
+
+m = 45
+p = 39
+c = 56
+print(m)
+print(p)
+print(c)
+print("Marks of maths:", m)
+print('Marks of physics:', p)
+print("Marks of chemistry:", c)
+
+name = "Vijay Verma"
+print(type(name))
+print(name)
+age = 23
+print(type(age))
+print(age)
+city = 'Greater Noida'
+print(type(city))
+print(city)
+weight = 72.34
+print(type(weight))
+print(weight)
+married = False
+print(type(married))
+print(married)
+print(name, age, city, weight, married)
