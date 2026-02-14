@@ -1,0 +1,40 @@
+DAY 5 - OPERATORS AND TYPES 
+
+-- Arithmetic Operator
+n1 = 5
+n2 = 2
+r = n1 + n2
+print(r)
+r = n1 - n2
+print(r)
+r = n1 * n2
+print(r)
+r = n1 / n2
+print(r)
+r = n1 // n2
+print(r)
+r = n1 % n2
+print(r)
+r = n1 ** n2
+print(r)
+
+-- Assignment Operator 
+x, y = 12, 23
+print(x, y)
+print(type(x), type(y))
+x = y = 5
+print(x, y)
+
+-- Discount Operator
+price = 375
+discount = 15 / 100 * price
+amount_to_pay = price - discount
+print("Actual price of product:", price)
+print("Discount you got:", discount)
+print("Amount to pay:", amount_to_pay)
+
+-- Week Operator
+d = 165
+w = d // 7
+rd = d % 7
+print(d, "days are equal to", w, "weeks and", rd, "days")
