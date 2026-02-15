@@ -34,8 +34,9 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 | Day 02 | Variables: Single & Multiple Use  | Practiced declaring and assigning single variables, explored multiple variable assignment in one line, and understood how Python handles values efficiently |
 | Day 03 | Lists & Variable Types | Learned about Python lists and practiced creating, accessing, and modifying them; explored different variable types (int, float, string, boolean) with examples to understand how Python stores and manipulates data |
 |Day 04 |  Data Types |  Explored Python’s core data types in depth (int, float, string, boolean, list, tuple, set, dict); practiced type conversion and checked types using `type()` and `isinstance()`; gained clarity on mutable vs immutable types and their practical use cases |
-Day 05 | Operators & Types | Practiced arithmetic operators (+, -, *, /, %, **, //), explored assignment operators (=, +=, -=, etc.), built small projects like a Discount Calculator and Week 
-|
+|Day 05 | Operators & Types | Practiced arithmetic operators (+, -, *, /, %, **, //), explored assignment operators (=, +=, -=, etc.), built small projects like a Discount Calculator and Week 
+|Day 06| Operators: Relational, Salary, Shorthand & Logical | Practiced relational operators (==, !=, <, >, <=, >=) for comparisons; applied operators in salary-based conditions; explored shorthand assignment operators (+=, -=, *=, /=) for concise updates; strengthened understanding of logical operators (and, or, not) to combine multiple conditions effectively.|
+
 ---
 
 
