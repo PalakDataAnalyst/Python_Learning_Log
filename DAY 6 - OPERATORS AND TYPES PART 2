@@ -1,0 +1,49 @@
+DAY 6 - OPERATORS AND TYPES PART 2
+
+-- Logical Operator
+x = 2 < 3 and 4 > 3
+print(x)
+x = 2 < 3 and 4 < 3
+print(x)
+x = 2 < 3 or 4 > 3
+print(x)
+x = 2 > 3 or 4 > 3
+print(x)
+x = 2 > 3 or 4 < 3
+print(x)
+x = not True
+print(x)
+x = not False
+print(x)
+
+-- Relational Operator
+a = 5
+b = 2
+c = a < b
+print(c)
+c = a > b
+print(c)
+c = a == b
+print(c)
+c = a != b
+print(c)
+c = a <= b
+print(c)
+c = a >= b
+print(c)
+
+-- Salary Calculator
+salary = 51600
+print("Joining Salary:", salary)
+salary += 15 / 100 * salary # salary = salary + 15 / 100 * salary
+print("Incemented salary:", salary)
+
+-- Short Hand Assignment
+x = 2
+print(x)
+x += 5 # x = x + 5
+print(x)
+x *= 3 # x = x * 3
+print(x)
+x -= 4 # x = x - 4
+print(x)
