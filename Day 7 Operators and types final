@@ -1,0 +1,36 @@
+DAY 7 Operators and types
+
+-- Bitwise Operators
+a, b = 4, 5
+c = a & b
+print(c)
+c = a | b
+print(c)
+c = a ^ b
+print(c)
+c = a >> 1
+print(c)
+c = a << 1
+print(c)
+c = ~a
+print(c)
+
+-- Identity Operator 
+a = 2
+b = 2
+print(id(a))
+print(id(b))
+print(a is b)
+print(a is not b)
+b = 3
+print(id(a))
+print(id(b))
+print(a is b)
+print(a is not b)
+
+-- Mmebership Operator
+values = [12, 2, 23]
+print(2 in values)
+print(2 not in values)
+print(11 in values)
+print(11 not in values)
