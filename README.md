@@ -37,6 +37,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 05 | Operators & Types | Practiced arithmetic operators (+, -, *, /, %, **, //), explored assignment operators (=, +=, -=, etc.), built small projects like a Discount Calculator and Week 
 |Day 06| Operators: Relational, Salary, Shorthand & Logical | Practiced relational operators (==, !=, <, >, <=, >=) for comparisons; applied operators in salary-based conditions; explored shorthand assignment operators (+=, -=, *=, /=) for concise updates; strengthened understanding of logical operators (and, or, not) to combine multiple conditions effectively.|
 |Day 07| Python Operators (Part‑3) | Practiced Bitwise Operators (&, |, ^, ~, <<, >>) for binary manipulation; explored Identity Operators (is, is not) to compare object references; applied Membership Operators (in, not in) to check element presence in sequences like lists, strings, and sets.|
+|Day 08| Typecasting & Type Conversion (Python) | Built a safe typecasting program using ast.literal_eval and try/except; demonstrated explicit conversions (int, float, str, bool, list, tuple), implicit coercion (int+float → float), and common pitfalls (int('3.5') error; bool('False') is True); added input validation, locale-aware parsing notes, and unit‑testable conversion functions; practiced safe parsing, loss‑of‑precision handling, and prepared exercises for CSV parsing and decimal.Decimal for monetary values.|
 
 
 ---
