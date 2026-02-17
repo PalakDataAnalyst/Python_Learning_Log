@@ -1,0 +1,19 @@
+DAY 8 - TYPECASTING PROGRAM TYPES
+
+-- Explicit type
+x = 12 + int("23") #Explicit type casting
+print(x)
+x = str(12) + '23' #Explicit type casting
+print(x)
+x = 12.23 + float('23.34') #Explicit type casting
+print(x)
+x = str(12.23) + "23.34" #Explicit type casting
+print(x)
+
+-- Implicit type
+x = 12 + 23.34
+print(x)
+print(type(x))
+x = 2 + 3 + 4j
+print(x)
+print(type(x))
