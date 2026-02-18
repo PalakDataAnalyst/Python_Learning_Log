@@ -1,0 +1,19 @@
+DAY 9 - KEYBOARD INPUT TYPES
+
+-- Addition 
+first_number = int(input("Enter first number: "))
+second_number = int(input("Enter second number: "))
+result = first_number + second_number
+print("Addition:", result)
+
+-- Addition2
+print("Addition:", int(input("Enter first number: ")) + int(input("Enter second number: ")))
+
+--Keyboard input
+name = input("Enter your name: ")
+print("Your name is", name)
+
+--Multiple inputs
+name = input("Enter your name: ")
+city = input('Enter your city: ')
+print(name, "lives in", city)
