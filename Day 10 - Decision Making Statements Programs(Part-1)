@@ -1,0 +1,38 @@
+Day 10 - Decision Making Statements Programs(Part-1)
+
+-- If Ex1.py
+if 2 < 3:
+    print("Hello") #Inside if body
+    print("Hi") #Inside if body
+print("Bye") #Outside if body
+
+-- If Ex2.py
+if 2 > 3:
+    print("Hello") #Inside if body
+    print("Hi") #Inside if body
+print("Bye") #Outside if body
+
+-- If Ex3.py
+if 2 < 3:
+    print("Hello") #Inside if body
+    print("Hi") #Inside if body
+    print("Bye") #Inside if body
+
+--If Ex4.py
+if 2 > 3:
+    print("Hello") #Inside if body
+    print("Hi") #Inside if body
+    print("Bye") #Inside if body
+
+-- If Use.py
+price = float(input("Enter the price of the product: "))
+amount_to_pay = price
+
+if price >= 500:
+    discount = 10 / 100 * price
+    amount_to_pay = price - discount
+    print("You saved:", discount)
+    
+print("Actual price of product:", price)
+print("Amount to pay:", amount_to_pay)
+    
