@@ -39,7 +39,8 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 07| Python Operators (Part‑3) | Practiced Bitwise Operators (&, |, ^, ~, <<, >>) for binary manipulation; explored Identity Operators (is, is not) to compare object references; applied Membership Operators (in, not in) to check element presence in sequences like lists, strings, and sets.|
 |Day 08| Typecasting & Type Conversion (Python) | Built a safe typecasting program using ast.literal_eval and try/except; demonstrated explicit conversions (int, float, str, bool, list, tuple), implicit coercion (int+float → float), and common pitfalls (int('3.5') error; bool('False') is True); added input validation, locale-aware parsing notes, and unit‑testable conversion functions; practiced safe parsing, loss‑of‑precision handling, and prepared exercises for CSV parsing and decimal.Decimal for monetary values.|
 |Day 09| Keyboard Input Program | Practiced using input() to take user input from the keyboard; built small interactive scripts that accept names, numbers, and perform operations based on user-provided values; strengthened understanding of type conversion (int(), float(), str()) to handle different input formats effectively.|
-|Day 10| Decision Making Statements | 
+|Day 10| Decision Making Statements | Practiced writing simple if statements to execute code when conditions are true; explored if-else to handle alternative outcomes; experimented with multiple examples (2 < 3, 2 > 3) to observe how the body of the if executes or skips; strengthened understanding of indentation and scope by distinguishing inside vs. outside the if block; built confidence in controlling program flow with clear, structured conditions.|
+
 
 ---
 
