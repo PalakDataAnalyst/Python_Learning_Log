@@ -1,0 +1,84 @@
+DAY 11 - Decision Making Statements Programs(Part-2)
+
+Eflif example 1
+if 2 < 3:
+    print("Hello")
+elif 2 > 3:
+    print("Hi")
+elif 2 == 3:
+    print("Welcome")
+else:
+    print("Bye")
+
+elif example 2
+if 2 > 3:
+    print("Hello")
+elif 3 > 2:
+    print("Hi")
+elif 2 == 3:
+    print("Welcome")
+else:
+    print("Bye")
+
+elif example 3
+if 2 > 3:
+    print("Hello")
+elif 3 != 3:
+    print("Hi")
+elif 2 == 2:
+    print("Welcome")
+else:
+    print("Bye")
+
+elif example 4
+if 2 > 3:
+    print("Hello")
+elif 3 != 3:
+    print("Hi")
+elif 5 == 2:
+    print("Welcome")
+else:
+    print("Bye"
+
+if Else example 1
+if 2 != 3:
+    print("Hello") #Inside if body
+else:
+    print("Hi") #Inside else body
+print("Bye") #Outside if-else body
+
+If Else example 2
+if 2 == 3:
+    print("Hello") #Inside if body
+else:
+    print("Hi") #Inside else body
+print("Bye") #Outside if-else body
+
+IF else use 
+price = float(input("Enter the price of the product: "))
+amount_to_pay = price
+
+if price >= 500:
+    discount = 10 / 100 * price
+    amount_to_pay = price - discount
+    print("You saved:", discount)
+else:
+    discount = 5 / 100 * price
+    amount_to_pay = price - discount
+    print("You saved:", discount)
+    
+print("Actual price of product:", price)
+print("Amount to pay:", amount_to_pay)
+
+if else use 2
+price = float(input("Enter the price of the product: "))
+
+if price >= 500:
+    discount = 10 / 100 * price
+else:
+    discount = 5 / 100 * price
+    
+amount_to_pay = price - discount
+print("You saved:", discount)    
+print("Actual price of product:", price)
+print("Amount to pay:", amount_to_pay)
