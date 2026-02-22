@@ -1,0 +1,53 @@
+DAY 12 - Decision Making Statements Programs(Part-3)
+
+--Elif use 
+price = float(input("Enter the price of the product: "))
+
+if price >= 2500:
+    discount = 50 / 100 * price
+elif price >= 1000:
+    discount = 25 / 100 * price
+elif price >= 500:
+    discount = 10 / 100 * price
+else:
+    discount = 5 / 100 * price
+    
+amount_to_pay = price - discount
+print("Actual price of product:", price)
+print("Amount to pay:", amount_to_pay)
+print("You saved:", discount)
+
+-- Nested If else use 
+m1 = int(input("Enter marks of subject 1: "))
+m2 = int(input("Enter marks of subject 2: "))
+m3 = int(input("Enter marks of subject 3: "))
+
+t = m1 + m2 + m3
+a = t / 3
+
+print("Total of marks:", t)
+print("Average of marks:", round(a, 2))
+
+if a >= 50:
+    print("Result: Pass")
+    if a >= 90:
+        print("Grade: A")
+    elif a >= 75:
+        print("Grade: B")
+    elif a >= 60:
+        print("Grade: C")
+    else:
+        print("Grade: D")
+else:
+    print("Result: Fail")
+
+-- Nested if else use 2
+age = int(input("Enter your age: "))
+
+if age >= 0 and age <= 100:
+    if age >= 18:
+        print("Adult")
+    else:
+        print("Minor")
+else:
+    print("Invalid age")
