@@ -43,7 +43,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 11| Decision Making Statements Part 2 | Practiced simple if-else for binary decisions, explored elif for multiple outcomes, applied logical operators (and, or, not), built nested conditions (e.g., age + citizenship check), and created small practical programs like grade calculators, login validation, and discount systems.|
 |Day 12| Decision Making Statements Part 3 | Practiced advanced elif use cases, explored nested if-else structures for layered decision-making, applied them in practical programs like classification tasks and eligibility checks, strengthening logical flow and real-world application skills.|
 |Day 13| Loop Program Part 1| practiced loop program with range function and with different types of examples and formed a table to understand real world application.|
-
+|Day 14| Loop Program Part 2| Practiced Day 13's Loops with real life examples and learnt While Loop along with its application in script form|
 
 ---
 
