@@ -1,0 +1,39 @@
+DAY 14 Loop Program Part 2
+
+-- Result.py
+t = 0
+
+for i in range(1, 4):
+    m = int(input("Enter marks of subject " + str(i) + ": ") )
+    t += m
+
+print("Total of marks:", t)
+a = t / 3
+print("Average of marks:", round(a, 2))
+
+-- Result2.py
+t = 0
+
+n = int(input("Enter number of subjects you have: "))
+
+for i in range(1, n + 1):
+    m = int(input("Enter marks of subject " + str(i) + ": ") )
+    t += m
+
+print("Total of marks:", t)
+a = t / n
+print("Average of marks:", round(a, 2))
+
+-- While Loop Use .py
+s = 0
+c = 0
+
+while c < 5:
+    n = int(input("Enter a number: "))
+    
+    if n > 0:
+        s += n
+        c += 1
+        
+print("Sum:", s)
+        
