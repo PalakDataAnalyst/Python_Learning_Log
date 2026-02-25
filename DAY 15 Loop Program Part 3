@@ -1,0 +1,70 @@
+DAY 15 Loop Program Part 3
+
+--BreakEx1.py
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+
+--Break Ex2.py
+for i in range(1, 6):
+    if i == 3:
+        break
+print(i)
+
+--Break Ex use.py
+s = 0
+
+for i in range(5):
+    n = int(input("Enter a number: "))
+    
+    if n <= 0:
+        break
+    
+    s += n
+        
+print("Sum:", s)
+
+-- Continue Ex.py
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+-- Continue use.py
+s = 0
+
+for i in range(5):
+    n = int(input("Enter a number: "))
+    
+    if n <= 0:
+        continue
+    
+    s += n
+    
+print("Sum:", s)
+
+-- Else Block with Loop1.py
+for i in range(1, 4):
+    print(i)
+else:
+    print("Hello")
+
+--Else Block with Loop2.py
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Hello")
+
+-- Prime number.py
+n = int(input("Enter a number: "))
+
+for i in range(2, n):
+    if n % i == 0:
+        print(n, "is not a prime number")
+        break
+else:
+    print(n, "is a prime number")
+    
+        
