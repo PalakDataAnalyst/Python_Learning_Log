@@ -1,0 +1,52 @@
+DAY 16 - Loop Program Part 4
+
+-- Nested for Ex1.py
+for x in range(3):
+    for y in range(4):
+        print("*", end="")
+    print()
+
+--Nested for Ex2.py
+st = 1
+
+for i in range(3):
+    for j in range(st):
+        print("*", end="")
+    print()
+    st += 1
+
+--Nested for Ex3.py
+st = 1
+
+n = int(input("Enter number of rows: "))
+
+for i in range(n):
+    for j in range(st):
+        print("*", end="")
+    print()
+    st += 1
+
+--Nested For Ex4.py
+st = 1
+
+n = int(input("Enter number of rows: "))
+s = input("Enter the symbol that you want to print: ")
+
+for i in range(n):
+    for j in range(st):
+        print(s, end="")
+    print()
+    st += 1
+
+-- Nested for Ex5.py
+sp = 2
+st = 1
+
+for i in range(3):
+    for j in range(sp):
+        print(" ", end="")
+    for k in range(st):
+        print("*", end="")
+    print()
+    sp -= 1
+    st += 1
