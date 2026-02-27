@@ -1,0 +1,88 @@
+DAY 17 - LOOP PROGRAM PART 7
+
+--Fibonacci series
+s = 0
+l = 1
+
+print(s, l, end=" ")
+
+for x in range(8):
+    n = s + l
+    print(n, end=" ")
+    s = l
+    l = n
+
+--Nested for Ex6.py
+rows = int(input("Enter number of rows you want to print: "))
+st = 1
+sp = rows - 1 
+
+for i in range(rows):
+    for j in range(sp):
+        print(" ", end="")
+    for k in range(st):
+        print("*", end="")
+    print()
+    sp -= 1
+    st += 1
+
+--Nested for Ex7.py
+rows = int(input("Enter number of rows you want to print: "))
+symbol = input("Enter the symbol you want to print: ")
+st = 1
+sp = rows - 1 
+
+for i in range(rows):
+    for j in range(sp):
+        print(" ", end="")
+    for k in range(st):
+        print(symbol, end="")
+    print()
+    sp -= 1
+    st += 1
+
+-- Nested for Ex8.py
+sp = 2
+st = 1
+for i in range(1, 6):
+    for j in range(sp):
+        print(" ", end="")
+    for k in range(st):
+        print("*", end="")
+    print()
+    if i <= 2:
+        sp -= 1
+        st += 2
+    else:
+        sp += 1
+        st -= 2
+
+-- Nested Loop use.py
+while True:
+    t = 0
+
+    n = int(input("Enter number of subjects you have: "))
+
+    for i in range(1, n + 1):
+        m = int(input("Enter marks of subject " + str(i) + ": ") )
+        t += m
+
+    print("Total of marks:", t)
+    a = t / n
+    print("Average of marks:", round(a, 2))
+
+    choice = input("Do you want to continue?[yes/no]: ")  
+    if choice != 'yes':
+        break  
+
+--While loop use.py
+while True:
+    n1 = int(input("Enter first number: "))
+    n2 = int(input("Enter second number: "))
+    s = n1 + n2
+    print("Sum:", s)
+
+    choice = input("Do you want to continue?[yes/no]: ")  
+    if choice != 'yes':
+        break  
+    
