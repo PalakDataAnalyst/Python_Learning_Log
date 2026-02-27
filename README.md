@@ -46,7 +46,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 14| Loop Program Part 2| Practiced Day 13's Loops with real life examples and learnt While Loop along with its application in script form|
 |Day 15| Loop Program Part 3| Learnt more about Loops, breaks, continue, applied in practical form using different examples and created prime number example|
 |Day 16| Loop Program Part 4| Learnt about nested loops and practiced using few examples with different conditions|
-
+|Day 17| Loop Program Part 5| Learnt about Fibonacci series, hands on practice with nested loop examples and practiced While loop too |
 
 ---
 
