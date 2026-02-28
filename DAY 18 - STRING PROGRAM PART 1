@@ -1,0 +1,28 @@
+DAY 18 - STRING PROGRAM PART 1
+
+-- Creating Strings.py
+
+message = '"hello" hi how are "you"'
+print(message)
+message = "I'm fine thank you"
+print(message)
+message = '''hello
+hi 
+"how" 
+are 
+you'''
+print(message)
+message = """I'm
+fine
+thank
+you"""
+print(message)
+
+-- Indexing strings.py
+
+course = "Python"
+print(course[1])
+print(course[-2])
+course = 'Welcome to Python'
+print(course[1])
+print(course[-2])
