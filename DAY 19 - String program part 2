@@ -1,0 +1,17 @@
+DAY 19 - String program part 2
+
+-- String Input 
+name = input("Enter your name: ")
+city = input('Enter your city: ')
+print("Name:", name, "\nCity:", city)
+
+-- String Slicing
+message = "Welcome to Programming"
+print(message[:10])
+print(message[10:])
+print(message[::2])
+print(message[1:-1])
+print(message[2:-2:3])
+print(message[-10:])
+print(message[-2:0:-1])
+print(message[-3:1:-2])
