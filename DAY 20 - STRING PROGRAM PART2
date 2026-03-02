@@ -1,0 +1,24 @@
+DAY 20 - STRING PROGRAM PART2 
+
+-- functions on string.py
+word = "welcome"
+print(len(word))
+print(sorted(word))
+print(ord('a'))
+print(ord('z'))
+print(chr(97))
+print(chr(122))
+print(ord('A'))
+print(ord('Z'))
+print(chr(65))
+print(chr(90))
+print(min(word))
+print(max(word))
+
+-- String assignment.py
+for i in range(97, 123):
+    print(chr(i), end=" ")
+
+-- String assignment 2.py
+for i in range(ord('A'), ord('Z') + 1):
+    print(chr(i), "-", i)
