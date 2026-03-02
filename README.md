@@ -49,7 +49,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 17| Loop Program Part 5| Learnt about Fibonacci series, hands on practice with nested loop examples and practiced While loop too |
 |Day 18| String Program Part 1| Learnt about strings as data collection type, additionally used indexing in string to find out an individual value|
 |Day 19| String Program Part 2| Learnt about strings in depth by using input function and experimented it with slicing function, learnt to find multiple values using - Start, stop, step keys |
-|Day 19| String Program Part 3|Learnt Functions on string and practiced two assignemnts on the same|
+|Day 20| String Program Part 3|Learnt Functions on string and practiced two assignemnts on the same|
 ---
 
 
