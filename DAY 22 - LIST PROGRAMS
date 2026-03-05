@@ -1,0 +1,90 @@
+DAY 22 - LIST PROGRAMS
+
+-- Creating List.py
+quantities = [5, 6, 4, 2, 7]
+print(type(quantities))
+print(quantities)
+prices = [45.67, 23.34, 38.14, 56.64, 72.16]
+print(prices)
+names = ["Tata Tea", 'Amul Butter', "Tond Milk", "Haldiram Namkeen", 'Mustered Oil']
+print(names)
+customer = ['Vijay Verma', 24, "Greater Noida", False, 75.26]
+print(customer)
+
+-- Functions on List.py
+marks = [45, 39, 56]
+print("Number of subjects:", len(marks))
+print("Minimum marks:", min(marks))
+print("Maximum marks:", max(marks))
+print("Total of marks:", sum(marks))
+print("Average of marks:", round(sum(marks)/len(marks), 2))
+
+-- List indexing.py
+marks = [45, 39, 56, 34, 67]
+print(marks[1])
+print(marks[-2])
+
+-- List input.py
+marks = []
+
+n = int(input("Enter number of subjects you have: "))
+
+for i in range(1, n + 1):
+    marks.append(int(input("Enter marks of subject " + str(i) + ": ")))
+
+print(marks)
+
+-- List inputex2.py
+marks = []
+print(marks)
+
+for i in range(1, 4):
+    marks.append(int(input("Enter marks of subject " + str(i) + ": ")))
+
+print(marks)
+
+--List Operators.py
+week1_sales = [4, 3, 5, 6, 4]
+print(week1_sales)
+week2_sales = [6, 4, 7, 5, 8]
+print(week2_sales)
+total_sales = week1_sales + week2_sales
+print(total_sales)
+one_week_price = [25] * 7
+print(one_week_price) 
+print('Amul Butter' in ['Parle-G Buiscuit', 'Amul Butter', 'Tata Tea']) 
+print('Amul Butter' not in ['Parle-G Buiscuit', 'Amul Butter', 'Tata Tea']) 
+print('Lays Chips' in ['Parle-G Buiscuit', 'Amul Butter', 'Tata Tea']) 
+print('Lays Chips' not in ['Parle-G Buiscuit', 'Amul Butter', 'Tata Tea']) 
+
+-- List Slicing.py
+marks = [45, 39, 56, 34, 67]
+print(marks[:3])
+print(marks[2:])
+print(marks[::2])
+print(marks[1:-1])
+print(marks[-3:])
+print(marks[-2:0:-1])
+
+-- Result.py
+marks = []
+
+n = int(input("Enter number of subjects you have: "))
+
+for i in range(1, n + 1):
+    marks.append(int(input("Enter marks of subject " + str(i) + ": ")))
+
+total_marks = sum(marks)
+average_marks = total_marks / n
+
+print(marks)
+print("Number of subjects:", n)
+print("Minimum marks:", min(marks))
+print("Maximum marks:", max(marks))
+print("Total marks:", total_marks)
+print("Average marks:", round(average_marks, 2))
+
+if average_marks >= 50:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
