@@ -51,6 +51,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 19| String Program Part 2| Learnt about strings in depth by using input function and experimented it with slicing function, learnt to find multiple values using - Start, stop, step keys |
 |Day 20| String Program Part 3|Learnt Functions on string and practiced two assignemnts on the same|
 |Day 21| String Method and Operators | Learnt string methods and applied operators, practiced few assignments on the same as well |
+|Day 22| List Programs| Learnt to create list, indexing, slicing using list program, applied operators using list and generated result python script |
 ---
 
 
