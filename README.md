@@ -53,6 +53,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 21| String Method and Operators | Learnt string methods and applied operators, practiced few assignments on the same as well |
 |Day 22| List Programs| Learnt to create list, indexing, slicing using list program, applied operators using list and generated result python script |
 |Day 23| List Methods| Practiced List methods, nested list query and formed resulted scripts|
+|Day 24| Dictionary Basics| Learnt dictionary basics, using input function in dictionary data collection data type, practiced to store multiple values in a dictionary, garned knowledge on dictionary methods as well|
 ---
 
 
