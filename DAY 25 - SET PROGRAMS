@@ -1,0 +1,63 @@
+DAY 25 - SET PROGRAMS
+
+ -- Set Basics.py
+roll_numbers = {101, 102, 101, 103, 102, 104, 101, 105}
+print(type(roll_numbers))
+print(roll_numbers)
+roll_numbers.add(106)
+print(roll_numbers)
+roll_numbers.remove(103)
+print(roll_numbers)
+
+-- Set keyboard input.py
+roll_numbers = set()
+print(type(roll_numbers))
+print(roll_numbers)
+
+while True:
+    rno = int(input("Enter roll number: "))
+    roll_numbers.add(rno)
+    print(roll_numbers)
+    
+    choice = input("Do you want to add another roll number?[Yes/No]: ")
+    if choice.lower() == "no":
+        break
+
+
+-- Set keyboard input2.py
+roll_numbers = set()
+print(type(roll_numbers))
+print(roll_numbers)
+
+while True:
+    rno = int(input("Enter roll number: "))
+    if rno not in roll_numbers:
+        roll_numbers.add(rno)
+        print(rno, "roll number is added successfully")
+    else:
+        print(rno, "is already added")
+    print(roll_numbers)
+    
+    choice = input("Do you want to add another roll number?[Yes/No]: ")
+    if choice.lower() == "no":
+        break
+
+-- Set methods.py
+values = {12, 2, 3, 23.34, 3, 12, 2, "Hello", 12, True}
+print(type(values))
+print(values)
+values.add(56)
+print(values)
+values.update({45, 3, 12, 34})
+print(values)
+values.remove(12)
+print(values)
+values2 = values.copy()
+print(values2)
+values2.remove(2)
+print(values2)
+print(values)
+values.pop()
+print(values)
+values.clear()
+print(values)
