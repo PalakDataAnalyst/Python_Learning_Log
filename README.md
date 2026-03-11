@@ -56,6 +56,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 24| Dictionary Basics| Learnt dictionary basics, using input function in dictionary data collection data type, practiced to store multiple values in a dictionary, garned knowledge on dictionary methods as well|
 |Day 25| Set Program| Practiced set basics, methods, how to take keyboard input and different examples to understand better|
 |Day 26|Programs for List and Dictionary Comprehension| Practiced comprehnsions with dictionary and list|
+|Day 27| Functional Programming| Practiced functions, needs for function and learnt about types of functions|
 ---
 
 
