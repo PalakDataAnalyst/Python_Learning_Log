@@ -1,0 +1,51 @@
+DAY 27 Functions Programs Part-1
+
+--Function Ex1.py
+def display(): #Defining the function
+    print("I love my India")
+    print("I live in India")
+    print("I am Happy")
+   
+print("Hello") 
+display() #Calling the function
+print("Hi")
+display() #Calling the function
+print("Bye")
+display() #Calling the function
+
+--Need for function.py
+print("Hello")
+
+print("I love my India")
+print("I love in India")
+print("I am happy")
+
+print("Hi")
+
+print("I love my India")
+print("I love in India")
+print("I am happy")
+
+print("Bye")
+
+print("I love my India")
+print("I love in India")
+print("I am happy")
+
+--Type 1 function.py
+def add():
+    n1 = int(input("Enter first number: "))
+    n2 = int(input("Enter second number: "))
+    s = n1 + n2
+    print("Sum:", s)
+    
+add()
+
+-- Type2 function.py
+def add(n1, n2):
+    s = n1 + n2
+    print("Sum:", s)
+    
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+add(n1, n2)
