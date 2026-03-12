@@ -57,6 +57,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 25| Set Program| Practiced set basics, methods, how to take keyboard input and different examples to understand better|
 |Day 26|Programs for List and Dictionary Comprehension| Practiced comprehnsions with dictionary and list|
 |Day 27| Functional Programming| Practiced functions, needs for function and learnt about types of functions|
+|Day 28| Functional Programming Part 2| Practiced 4 typesof functions,parameterization and resulted functions in examples|
 ---
 
 
