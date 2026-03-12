@@ -1,0 +1,77 @@
+DAY 28 - Functions Programs Part-2
+
+
+--Default Argument function.py
+def add(n1, n2 = 3):
+    return n1 + n2
+
+print(add(12))
+print(add(12, 23))
+
+--Multiple function with same name.py
+def add(n1, n2):
+    return n1 + n2
+
+def add(n1, n2, n3):
+    return n1 + n2 + n3
+
+print(add(12, 23))
+print(add(12, 2, 23))
+
+--Result function.py
+def find_result(m1, m2, m3):
+    t = m1 + m2 + m3
+    a = t / 3
+    return t, a
+
+m1 = int(input("Enter marks of first subject: "))
+m2 = int(input("Enter marks of second subject: "))
+m3 = int(input("Enter marks of third subject: "))
+t, a = find_result(m1, m2, m3)
+print("Total marks:", t, "\nAverage marks:", round(a, 2))
+
+--Result function2.py
+def find_result(m1, m2, m3):
+    t = m1 + m2 + m3
+    a = t / 3
+    return t, a
+
+m1 = int(input("Enter marks of first subject: "))
+m2 = int(input("Enter marks of second subject: "))
+m3 = int(input("Enter marks of third subject: "))
+t, a = find_result(m1, m2, m3)
+print(f"Total marks: {t}\nAverage Marks: {round(a, 2)}")
+
+--Type 3 function.py
+def add():
+    n1 = int(input("Enter first number: "))
+    n2 = int(input("Enter second number: "))
+    s = n1 + n2
+    return s
+    
+s = add()
+print("Sum:", s)
+
+--Type 4 function.py
+def add(n1, n2):
+    s = n1 + n2
+    return s
+
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+s = add(n1, n2)
+print("Addition:", s)
+
+--Type 4 function2.py
+def add(n1, n2):
+    return n1 + n2
+
+print("Addition:", add(int(input("Enter first number: ")), int(input("Enter second number: "))))
+
+--Use of default argument.py
+def add(n1, n2, n3 = 0):
+    return n1 + n2 + n3
+
+print(add(10, 20))
+print(add(10, 20, 30))
+    
