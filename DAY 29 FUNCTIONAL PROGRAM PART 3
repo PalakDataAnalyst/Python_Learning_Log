@@ -1,0 +1,74 @@
+DAY 29 FUNCTIONAL PROGRAM PART 3
+
+-- Global Keyword.py
+def function():
+    global x
+    x = 2
+    
+function()
+print(x)
+
+-- Global Keyword2.py
+def function():
+    global x
+    x = 5
+    
+x = 2
+print(x)
+function()
+print(x)
+
+--Global Variable.py
+a = 2 #Global Variable
+
+def show():
+    print(a)
+
+show()    
+print(a)
+
+--Keyword Argument function.py
+def display(name, age):
+    print("Name:", name)
+    print("Age:", age)
+    
+display("Vijay Verma", 23) #Value based argument passing
+display(name="Manoj Pandey", age=24) #Keyword based argument passing
+display(23, 'Roshini Mishra') #Value based argument passing
+display(age=23, name="Roshini Mishra") #Keyword based argument passing
+
+--Keyword Variable Argument Function Use.py
+def add(**numbers):
+    s = sum(numbers.values())
+    return s
+    
+print(add(n1 = 10, n2 = 20, n3 = 30))
+print(add(n1 = 10, n2 = 30))
+
+--Keyword Variable Argument Function Use.py
+def display(**kwargs):
+    print(type(kwargs))
+    print(kwargs)
+    
+display(name = "Vijay Mehra", age = 23, city = 'Greater Noida')
+display(name = 'Mahima Gupta', age = 22)
+display(name = "Pankaj Mishra", age = 24, city = "New Delhi", phone_number = '+91-9811234522')
+
+-- Local and Global Variable.py
+def fun():
+    a = 5 #Local Variable
+    print(a)
+    
+a = 2 #Global Variable
+fun()
+print(a)
+
+--Local Variable.py
+def show():
+    a = 3 #Local variable
+    print(a)
+    
+show()
+#print(a)
+
+--
