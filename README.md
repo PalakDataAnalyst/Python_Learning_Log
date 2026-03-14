@@ -59,6 +59,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 27| Functional Programming| Practiced functions, needs for function and learnt about types of functions|
 |Day 28| Functional Programming Part 2| Practiced 4 typesof functions,parameterization and resulted functions in examples|
 |Day 29| Functional Programming Part 3| Practiced Global keywords, local- global variables,Keyword argument function|
+|Day 30| Functional Programming Part 4| Learnt about map function,  need, use and application|
 ---
 
 
