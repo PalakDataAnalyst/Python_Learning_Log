@@ -61,6 +61,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 29| Functional Programming Part 3| Practiced Global keywords, local- global variables,Keyword argument function|
 |Day 30| Functional Programming Part 4| Learnt about map function,  need, use and application|
 |Day 31| Functional Programming Part 5| Learnt about anonymous function,factorial function, recurrsive function and its uses|
+|Day 32|Modular Programming | Learnt about modular programmings basics|
 ---
 
 
