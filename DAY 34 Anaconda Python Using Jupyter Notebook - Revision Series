@@ -1,0 +1,18 @@
+DAY 34 Anaconda Python Using Jupyter Notebook - Revision Series
+
+-- Learnt to markdown
+**Welcome to Python** - For bold heading
+
+#Welcome to python
+Maximum 6 #s allowed
+
+-- learnt to comment a script
+#Hi I am learning Python.
+
+-- Learnt Operators 
+1. Arithmetic Operators - +, *,-,**,/,//,%
+2. Logical - And, Or, Not
+3. Relational - !=, >,<, ==, <=,>=
+4. Assignment Operator - '='
+5. Membership Operator - in, not in 
+6. Identity Operators - Is, is not
