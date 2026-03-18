@@ -63,7 +63,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 31| Functional Programming Part 5| Learnt about anonymous function,factorial function, recurrsive function and its uses|
 |Day 32|Modular Programming | Learnt about modular programmings basics|
 |Day 33|Modular Programming Part 1  | Learnt about modular programmings basics and mains|
-|Day 34| Started learning to work on Anaconda Python using Jupyter Notebook, Learnt markdown, comment, using operators |
+|Day 34| Revision Series - Data Analystics focused Python| Started learning to work on Anaconda Python using Jupyter Notebook, Learnt markdown, comment, using different typesof operators |
 ---
 
 
