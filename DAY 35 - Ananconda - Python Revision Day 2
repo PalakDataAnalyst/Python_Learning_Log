@@ -1,0 +1,30 @@
+DAY 35 - Ananconda - Python Revision Day 2
+
+-- Type casting
+Int, Str, Float, Boolean
+
+n = 12.43 + 34
+no type cast needed since both are in numerical terms
+
+n = 12.34 + true
+no type cast needed since boolean is counted in numerical values  1 or 0 
+
+n = 12 + "car"
+type cast needed as 12 is int and car is str
+step - 12 + int(car)
+
+n = "434" + 56
+type cast needed as 434 is an string here 
+therefore, 
+step - int(434) + 56 
+
+-- Keypad input 
+There are two types of input - Implicit and Explicit
+
+m1 = int(input("Enter marks of subject 1: "))
+m2 = int(input("Enter marks of subject 2: "))
+m3 = int(input("Enter marks of subject 3: "))
+s = m1+m2+m3
+a = s/3
+print("Total Marks: ", s /n"Average marks: ",a)
+
