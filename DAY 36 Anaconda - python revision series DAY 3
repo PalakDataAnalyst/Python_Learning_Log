@@ -1,0 +1,20 @@
+DAY 36 Anaconda - python revision series DAY 3
+
+**Program for Mix Inputs**
+name = input("Enter the product name: ")
+price = float(input('Enter the price of the product: '))
+quantity = int(input("Enter the product quantity: "))
+total_amount = quantity * price
+discount = 10 / 100 * total_amount
+amount_to_pay = total_amount - discount
+amount_to_pay
+print("Product Name:", name)
+print('Product Price:', price)
+print("Product Quantity:", quantity)
+print("Total Bill:", total_amount)
+print("Amount to Pay:", amount_to_pay)
+print("You saved:", discount)
+print("Product Name:", name, "Product Quantity:", quantity, 'Product Price', price, 'Total Amount:', 
+total_amount, "Amount to Pay:", amount_to_pay, "You saved:", discount)
+print("Product Name:", name, "\nProduct Quantity:", quantity, '\nProduct Price', price, '\nTotal Amount:', 
+total_amount, "\nAmount to Pay:", amount_to_pay, "\nYou saved:", discount)
