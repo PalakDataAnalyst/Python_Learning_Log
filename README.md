@@ -66,6 +66,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 34| Revision Series - Data Analystics focused Python| Started learning to work on Anaconda Python using Jupyter Notebook, Learnt markdown, comment, using different typesof operators |
 |Day 35| Revision Series DAY2 - Data Analystics focused Python| Revised TypeCasting and Keypad Input|
 |Day 36| Revision Series DAY3 - Data Analystics focused Python| Used Input function in product-quantity-price example|
+|Day 37| Revision Series DAY4 - Data Analystics focused Python| Revised decision making statements - if, else, if-else|
 ---
 
 
