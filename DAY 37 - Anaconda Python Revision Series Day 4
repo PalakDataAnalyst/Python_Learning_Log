@@ -1,0 +1,82 @@
+DAY 37 - Anaconda Python Revision Series Day 4
+
+-- Decision Making Statements 
+Consists of - IF, ELSE, IF ELSE, OR
+
+--- IF STATEMENTS
+
+If 2>3:
+  print("hello")
+If 5<10:
+ print("Hello")
+hello
+
+If 2!=4:
+  print('hello')
+print('bye')
+hello
+bye
+
+If 2>=1:
+  print("python")
+print("hola")
+python
+hola
+
+-- IF ELSE STATEMENT 
+
+If 44>=33:
+  print('hello')
+else: 
+    print('python')
+hello
+
+-- IF ELSE USING STATEMENT
+
+m1 = int(input("enter your subject 1 marks: "))
+m2 = int(input("enter your subject 2 marks: "))
+m3 = int(input("enter your subject 3 marks: "))
+t = m1+m2+m3
+print("Total marks: ", t)
+a = t/3
+print("Average marks: ",a)
+IF t >=150:
+    print("You are passed")
+else:
+     print("You have not passed")
+
+p1 = float(input("enter product price: ")
+p1 = price
+if price>=500:
+   discount = 10*100/price
+   final price = p1 - discount
+   print("Price of the product: ", p1)
+   print("Discount given: ", discount)
+   print("Final price: " , final price)
+
+--------------------------------------------
+
+p1 = float(input("enter product price: ")
+p1 = price
+if price>=500:
+   discount = 10*100/price
+   final price = p1 - discount
+   print("discount you got: " discount)
+   print("Final product price: ", final price)
+else:
+    discount = 5*100/price
+    final price = p1- discount
+print("discount you got: " discount)
+print("Final product price: ", final price)
+
+---------------------------------------------
+age = int(input('Enter your age: '))
+
+if age >= 0 and age <= 125:
+    print("Valid age")
+else:
+    print("Invalid age")
+
+
+
+
