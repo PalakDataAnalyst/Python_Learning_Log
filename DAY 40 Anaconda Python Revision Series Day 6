@@ -1,0 +1,16 @@
+DAY 40 Anaconda Python Revision Series Day 7
+
+Password Checker Program
+
+Actual_Password = 'PALAK'
+max_attempt = 3
+print("You have", max_attempt, "attempt")
+for attempt_number in range(1, attempt_passsword+1):
+      entered_password = input("Enter your password: ")
+      if entered_password = Actual_Password
+          print("Password matches successfully")
+          break
+  print("enter password again")
+  print("You got" max_attempt - attempt_number  " attempt left")
+
+
