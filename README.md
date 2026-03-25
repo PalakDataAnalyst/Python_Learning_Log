@@ -69,6 +69,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 37| Revision Series DAY4 - Data Analystics focused Python| Revised decision making statements - if, else, if-else|
 |Day 38| Revision Series DAY5 - Data Analystics focused Python| Revised Loop Statement with start-stop-step rule|
 |Day 39| Revision Series DAY6 - Data Analystics focused Python| Revised Break and Continue Statements|
+|Day 40| Revision Series DAY7 - Data Analystics focused Python| Made Password Checker Program using continue-break statement|
 ---
 
 
