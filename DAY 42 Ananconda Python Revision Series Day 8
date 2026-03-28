@@ -1,0 +1,23 @@
+DAY 42 Ananconda Python Revision Series Day 8 
+
+-- Break and Continue.py
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+for i in range(1, 11):
+    if i in (4, 5, 7):
+        continue
+    print(i)
+
+-- Use of Continue Statement
+s = 0
+for i in range(5):
+    n = int(input("Enter a number: "))
+    if n <= 0:
+        continue
+    s = s + n
+print("Sum:", s)
+
