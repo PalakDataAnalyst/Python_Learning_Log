@@ -70,7 +70,8 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 38| Revision Series DAY5 - Data Analystics focused Python| Revised Loop Statement with start-stop-step rule|
 |Day 39| Revision Series DAY6 - Data Analystics focused Python| Revised Break and Continue Statements|
 |Day 40| Revision Series DAY7 - Data Analystics focused Python| Made Password Checker Program using continue-break statement|
-|Day 41| Revision Series DAY8 - Data Analystics focused Python| REvised While Loop Statement and made program to findsum of  non zero positive number using input method |
+|Day 41| Revision Series DAY8 - Data Analystics focused Python| Revised While Loop Statement and made program to findsum of  non zero positive number using input method |
+|Day 42| Revision Series DAY8 - Data Analystics focused Python| Revised continue program and use of continue statement|
 ---
 
 
