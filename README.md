@@ -71,7 +71,8 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 39| Revision Series DAY6 - Data Analystics focused Python| Revised Break and Continue Statements|
 |Day 40| Revision Series DAY7 - Data Analystics focused Python| Made Password Checker Program using continue-break statement|
 |Day 41| Revision Series DAY8 - Data Analystics focused Python| Revised While Loop Statement and made program to findsum of  non zero positive number using input method |
-|Day 42| Revision Series DAY8 - Data Analystics focused Python| Revised continue program and use of continue statement|
+|Day 42| Revision Series DAY 9 - Data Analystics focused Python| Revised continue program and use of continue statement|
+|Day 43| Revision Series DAY 10  - Data Analystics focused Python| Made Python program to check whether a number is prime or not|
 ---
 
 
