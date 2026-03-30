@@ -1,0 +1,78 @@
+DAY 43 Anaconda Python Revision Series Day 9
+
+-- String - data collection type
+
+course = "Python Programming"
+print(course)
+
+type(course)
+
+messages = """Python is a great programming language.
+Pyhton is used in Data Analytics, AI, Machine Learning, Data Science"""
+print(messages)
+
+-- Recieving String from keyboard
+
+name = input("Enter your name: ")
+print("Your name:", name)
+
+name = input("Enter your name: ")
+city = input('Enter your city: ')
+print(name, "lives in", city)
+
+-- String Operators
+
+word1 = "Hello"
+print(word1)
+word2 = 'Hi'
+print(word2)
+
+word3 = word1+word2
+print(word3)
+
+word3 = word1+" " + word2
+print(word3)
+
+word4 = 'h'*5
+print(word4)
+
+word5 = 'bye '* 5
+print(word5)
+
+word1 == word2
+-False
+
+Bye == BYe
+- False
+
+Bye == Bye
+- True
+
+hello != hello
+- False
+
+--Functions for String
+
+word = welcome
+print(word)
+
+len(word)
+- 7
+
+ord(a)
+ - 97
+
+ord(b)
+- 98
+
+chr(97)
+- a
+
+chr(98)
+- b
+
+min(word)
+
+max(word)
+
+
