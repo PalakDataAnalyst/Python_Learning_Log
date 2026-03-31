@@ -74,6 +74,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 42| Revision Series DAY 9 - Data Analystics focused Python| Revised continue program and use of continue statement|
 |Day 43| Revision Series DAY 10  - Data Analystics focused Python| Made Python program to check whether a number is prime or not|
 |Day 44| Revision Series DAY 11  - Data Analystics focused Python| Revised Data collection Type - String|
+|Day 45| Revision Series DAY 12  - Data Analystics focused Python| Revised String - slicing , indexing, methods, loop through slicing|
 ---
 
 
