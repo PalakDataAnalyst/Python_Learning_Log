@@ -1,0 +1,52 @@
+DAY 44 Anaconda Python Revision Series Day 10
+
+-- Index slicing
+
+msg = "I love India"
+print(msg)
+
+print(msg[3:]):
+**result** - o
+
+print(msg[2:-1:])
+**result** - love Indi
+
+print(msg[-4::2])
+**Result** - I v I
+
+vc = 0
+cc = 0
+sc = 0
+for character in message:
+    if character in "aAeEiIoOuU":
+        vc = vc + 1
+    elif character == " ":
+        sc = sc + 1
+    else:
+        cc = cc + 1
+print("Number of vowel characters:", vc)
+print('Number of consonant characters:', cc)
+print("Number of spaces:", sc)
+
+-- Loop through String
+
+for i in range(len(message)):
+    print(message[i])
+
+-- String Methods 
+
+msg = msg.lower()
+
+msg = msg.upper()
+
+msg = msg.capitalize()
+
+msg = ["hello",'hi', 'how','are','you']
+print(msg)
+
+line = " ".join(msg)
+print(line)
+
+line = msg.split()
+print(line)
+
