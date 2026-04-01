@@ -1,0 +1,96 @@
+DAY 45 Anaconda Python Revision Series DAY 11
+
+-- List - Data Collection Type
+
+marks = [23,34,67,87]
+print(marks)
+
+marks = ['palak', 55.6,23,"Noida"]
+print(marks)
+
+-- List Operators
+
+m1 = [23,45,56]
+m2 = [77,88,99]
+m3 = m1+m2
+print(m3)
+
+m4 = [77]*4
+print(m4)
+
+m5 = [77,23]*5
+print(m5)
+
+print(23 in m1)
+
+print(77 not in m1)
+
+-- List Functions
+
+salary = [345,3456,4567,7653]
+print("Number of salaries: ", len(salary))
+
+print("Minimum Marks: ", min(salary))
+
+print("Maximum Marks: ", max(salary))
+
+print("Sum of salary: ", sum(salary))
+
+print("Average of salary: ", sum(salary)/len(salary))
+
+-- List Indexing
+
+quantity = [12,34,67,98,546]
+quantity[2]
+
+quantity[-3]
+
+
+-- List Slicing
+quantity[:3]
+
+quantity[1:-2:]
+
+quantity[-2:0:]
+
+-- Adding Values to list at end
+
+numbers = [1,2,3]
+numbers
+
+numbers.append(4)
+
+print(numbers)
+
+-- Receiving Values from Keyboard in List
+
+m = int(input("Enter marks of subject 1: "))
+print(m)
+
+m = int(input("Enter marks of subject 2: "))
+print(m)
+numbers.append(m)
+
+-- Program
+
+marks[]
+print(marks)
+
+n = int(input("Enter the number of subjects you wish to add: "))
+for i in range(1, n + 1):
+    marks.append(int(input(f"Enter marks of subject {i}: ")))
+print(marks)
+
+-- Program
+
+Quantity[]
+print(Quantity)
+
+n = int(input("Enter the number of items you wish to add: "))
+for i in range(1,n+1):
+    Quantity.append(float(input(f"Enter price of quantity: ")))
+print(Quantity)
+
+
+
+
