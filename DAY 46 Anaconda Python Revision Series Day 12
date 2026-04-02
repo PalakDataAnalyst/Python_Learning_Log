@@ -1,0 +1,44 @@
+DAY 46 Anaconda Python REvisiom Series Day 12
+
+--List Methods
+
+values = [12, 2, 3, 23]
+print(values)
+
+values.pop()
+values
+
+values.remove(2)
+values
+
+values.insert(1,50)
+
+values.append(44)
+
+values.count()
+
+values.sort()
+
+values.reverse()
+
+values.clear()
+values
+
+-- program to delete all occurences of a specific value from list
+
+numbers = [12,2,12,3,4,12,5,12]
+print(numbers)
+
+for n in numbers:
+    if n == 12 :
+        numbers.remove
+print(numbers)
+
+-- Nested List
+
+m = [[12,2,3],[22,33,44],[55,66,77]]
+print(m)
+
+print(m[1])
+
+print(m[1][1])
