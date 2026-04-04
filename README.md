@@ -77,6 +77,7 @@ To build a strong foundation in **Python programming**, **data analysis**, and *
 |Day 45| Revision Series DAY 12  - Data Analystics focused Python| Revised String - slicing , indexing, methods, loop through slicing|
 |Day 46| Revision Series DAY 13  - Data Analystics focused Python| Revised List - operators, slicing,indexing, keyboard input, made 2 programs out of all this|
 |Day 47| Revision Series DAY 14  - Data Analystics focused Python| Revised List - methods, nested list,made program to remove duplicate value|
+|Day 48| Revision Series DAY 15  - Data Analystics focused Python| Revised List - Keyboard input in Nested list|
 ---
 
 
