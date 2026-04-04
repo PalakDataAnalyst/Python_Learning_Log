@@ -1,0 +1,26 @@
+DAY 47 Anaconda Python Revision Series Day 13
+
+-- Nested List Keyboard Input
+
+students_marks = []
+students_marks
+
+s = int(input("Enter number of students in the class: "))
+n = int(input("Enter number of subjects each student have: "))
+for i in range(s):
+    print(f"Input details of student {i + 1}")
+    marks = []
+    for j in range(n):
+        marks.append(int(input(f"Enter marks of subject {j + 1}: ")))
+    students_marks.append(marks)
+
+students_marks
+
+for marks in students_marks:
+    t = sum(marks)
+    print(f"Total Marks: {t}\nAverage Marks: {round(t/n, 2)}")
+
+for i in range(s):
+    t = sum(students_marks[i])
+    print(f"Total Marks of student {i + 1}: {t}\nAverage Marks of student {i + 1}: {round(t/n, 2)}")
+
